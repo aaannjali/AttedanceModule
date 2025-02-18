@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ProfileSummary = () => {
   return (
-    <div className="flex items-center justify-between p-1 ml-4 mt-2  text-black bg-white rounded-lg shadow-lg w-[1190px] font-bold ">
+    <div className="flex items-center justify-between p-8 ml-2  bg-white text-black  rounded-lg shadow-lg w-[1199px] font-bold ">
       {/* Profile Section */}
       <div className="flex items-center space-x-6 mr-12">
         <Image

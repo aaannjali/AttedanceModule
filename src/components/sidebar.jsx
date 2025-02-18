@@ -7,7 +7,7 @@ const Sidebar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     return (
-        <div className='w-full h-[1015px] '>
+        <div className='h-[912px] bg-blue-800 '>
             {/* Mobile Menu Button */}
             <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -19,7 +19,7 @@ const Sidebar = () => {
             <div className={`
         h-full bg-blue-800 flex flex-col items-center p-4
         transform transition-transform duration-300 ease-in-out
-        lg:translate-x-0 lg:w-28 sm:w-12
+        lg:translate-x-0 lg:w-24 sm:w-12
         ${isMobileMenuOpen ? 'w-32 translate-x-0' : 'w-32 -translate-x-full'}
       `}>
                 {/* Logo */}
@@ -29,7 +29,7 @@ const Sidebar = () => {
 
                 {/* User Profile */}
                 <div className="flex flex-col items-center w-full">
-                    <div className="w-28 sm:w-32 md:w-36 lg:w-28 h-[1px] bg-gray-500 mb-6"></div>
+                    <div className="w-28 sm:w-28 md:w-36 lg:w-24 h-[1px] bg-gray-400 mb-6"></div>
                     <div className="p-0 w-20 h-20 rounded-full bg-white overflow-hidden shadow-sm">
     <img
         src="/logo2.jpg"
@@ -39,7 +39,7 @@ const Sidebar = () => {
 </div>
 
 
-                    <div className="w-28 sm:w-32 md:w-36 lg:w-28 h-[0.5px] bg-gray-500 mt-6"></div>
+                    <div className="w-28 sm:w-32 md:w-36 lg:w-24 h-[0.5px] bg-gray-400 mt-6"></div>
                 </div>
 
                 {/* Navigation Icons */}
@@ -54,7 +54,7 @@ const Sidebar = () => {
                         <FaWallet className="w-6 h-6 text-white" />
                     </button>
                 </nav>
-                <button className='pt-96 text-4xl '>
+                <button className='pt-72 text-4xl '>
                 <CgLogOff className='hover:bg-blue-700 rounded-3xl' />
                 </button>
             </div>

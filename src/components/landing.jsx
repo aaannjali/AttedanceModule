@@ -7,7 +7,7 @@ import AttendanceTable from './chart'
  
 const Landing = () => {
   return (
-    <div className="w-full min-h-screen bg-white">
+    <div className=" min-h-screen bg-blue-50 ">
       <Navbar />
       <Searchbar />
       <div className="p-0 m-0 flex flex-row">

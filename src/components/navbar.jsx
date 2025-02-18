@@ -36,9 +36,9 @@ const Navbar = () => {
           
         </div>
         <div >
-        <p  className="px-12 pt-3 flex items-center justify-center text-blue-600 text-[12px] font-bold basis-[8%]  border-gray-200">
+        <p  className="px-12 pt-3  flex items-center justify-center text-blue-600 text-[12px] font-bold basis-[8%]  border-gray-200">
             Attendance 
-            <span> Module</span>
+            <span className="ml-2"> Module</span>
           </p>
         </div>
       </div>

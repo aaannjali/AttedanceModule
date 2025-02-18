@@ -6,7 +6,7 @@ import Image from 'next/image';
 const UserCard = ({ profilePic, name, role, department, isSelected, onClick }) => {
     return (
         <div 
-            className={`w-80 h-20  ${isSelected ? 'bg-violet-200' : 'bg-blue-100'} rounded-xl border border-gray-200 cursor-pointer transition-all duration-200 mb-3 hover:shadow-lg transform hover:-translate-y-1`}
+            className={`w-80 h-20  ${isSelected ? 'bg-blue-300' : 'bg-blue-50'} rounded-xl border border-gray-200 cursor-pointer transition-all duration-200 mb-3 hover:shadow-lg transform hover:-translate-y-1`}
             onClick={onClick}
         >
             <div className="flex items-center m-3 p-1 ">
@@ -46,7 +46,7 @@ const Users = () => {
     ];
 
     return (
-        <div className="  sm:px-4  px-1 bg-blue-50 pl-2 ">
+        <div className="  sm:px-4  px-1 bg-white rounded-lg  pl-2 ">
             <div className="flex flex-col flex-wrap justify-center gap-2 pt-4">
                 {users.map(user => (
                     <UserCard 
