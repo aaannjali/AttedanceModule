@@ -46,7 +46,7 @@ const Users = () => {
     ];
 
     return (
-        <div className="  sm:px-4  px-1 ">
+        <div className="  sm:px-4  px-1 bg-blue-50 pl-2 ">
             <div className="flex flex-col flex-wrap justify-center gap-2 pt-4">
                 {users.map(user => (
                     <UserCard 
