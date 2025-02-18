@@ -7,7 +7,7 @@ const ProfileSummary = () => {
       {/* Profile Section */}
       <div className="flex items-center space-x-6 mr-12">
         <Image
-          src="/logo3.jpg" // Replace with actual image URL
+          src="/logo3.jpg" 
           alt="Profile"
           width={50}
           height={50}
