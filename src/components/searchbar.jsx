@@ -15,7 +15,7 @@ const Searchbar = () => {
     const rowOptions = ['', '25', '50', '100'];
   
     return (
-      <div className="w-full bg-white">
+      <div className="w-full bg-blue-50">
 
         {/* Search and filter section */}
         <div className="p-3 flex items-center space-x-4"    >
